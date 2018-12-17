@@ -1,8 +1,8 @@
-fname = input("Enter file name: ")
+filename = input("Enter file name: ")
  
 num_words = 0
  
-with open(fname, 'r') as f:
+with open(filename, 'r') as f:
     for line in f:
         words = line.split()
         num_words += len(words)
