@@ -1,7 +1,7 @@
-string=raw_input("Enter string:")
+str=raw_input("Enter string:")
 count1=0
 count2=0
-for i in string:
+for i in str:
       if(i.isdigit()):
             count1=count1+1
       count2=count2+1
